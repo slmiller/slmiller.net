@@ -1,0 +1,359 @@
+.red {
+    background-color: #990000;
+}
+
+.yellow {
+    background-color: #FFFF66;
+}
+
+.blue {
+    background-color: rgb(20, 170, 200);
+}
+
+.green {
+    background-color: #33CC33;
+}
+
+.vcontainer {
+    height: 100%;
+}
+
+.p1 {
+    margin-top: -10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.no-bottom-margin {
+    margin-bottom: 3px;
+}
+
+.right-aligned {
+    text-align: right;
+}
+
+h1 {
+    font-family: Droid Sans;
+    font-size: 22pt;
+    font-weight: 800;
+    color: rgb(70,70,70);
+}
+
+h2 {
+    font-family: Droid Sans;
+    font-weight: 800;
+    color: rgb(90,90,90);
+    font-size: 18pt;
+    margin-bottom: -20px;
+    margin-top: 4px;
+}
+
+h3 {
+    font-family: Droid Sans;
+    color: rgb(90,90,90);
+    font-size: 12pt;
+}
+
+h4 {
+    font-family: Droid Sans;
+    color: rgb(20, 170, 200);
+    font-size: 22pt;
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+
+h5 {
+    font-family: Droid Sans;
+    color: rgb(20,20,20);
+    font-size: 18pt;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+p {
+    font-family: arvo;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    background-image: url(images/hatch.png);
+}
+
+#wrapper {
+    background-image: url(images/white-noise.png);
+    box-shadow: 0 0 10px black;
+}  
+
+#header-image {
+    height: 256px;
+    margin-top: 10px;
+    background-image: url(images/panorama.png);
+    background-size: 100% auto;
+}
+
+#navbar {
+    background-color: rgb(20,20,20);    
+    height: 36px;
+    padding-top: 5px;
+}
+
+#navbar-col {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    color: rgb(210,210,210);
+    font-family: arvo;
+}
+
+#navbar-col a:hover {
+    color: rgb(20, 170, 200);
+    text-decoration: none;
+}
+
+#navbar-col-port {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+    color: rgb(210,210,210);
+    margin-left: -26px;
+    font-family: arvo;
+}
+
+#navbar-col-port a:hover {
+    color: rgb(20, 170, 200);
+    text-decoration: none;
+}
+
+#icons-top {
+    text-align: right;
+    font-size: 14pt;
+    color: rgb(210,210,210);
+    float: right;
+}
+
+#icons-top i:hover {
+    color: rgb(20, 170, 200);
+    text-decoration: none;
+}
+
+#profile-bio {
+    color: black;
+}
+
+#profile {
+    padding-top: 25px;
+    padding-right: 0;
+}
+
+#profile-image {
+    width: 100%;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#school-degree {
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-left: 0;
+    border-right: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-width: 1px;
+}
+
+#school-degree-left {
+    text-align: left;
+}
+
+#school-degree-right {
+    text-align: right;
+}
+
+#blue-text {
+    color: rgb(20, 170, 200);
+}
+
+#white-text {
+    color: rgb(20,20,20);
+}
+
+#achieve-row {
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-width: 1px;
+}
+
+#achieve-col-center {
+    padding-left: ;
+}
+
+#achieve-col-image-arch {
+    background-image: url(images/studio.png);
+    background-size: auto 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+#achieve-col-image-ncees {
+    background-image: url(images/ncees.png);
+    background-size: auto 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+#achieve-col-image-iald {
+    background-image: url(images/IALD.png);
+    background-size: auto 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+#skills-interests {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#skills-col {
+    padding-left: 0;
+}
+
+#skills-text {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#skills-title {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+#skills-list {
+    padding: 0px 30px 10px 10px;
+}
+
+#skills-element {
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#interests-title {
+    text-align: right;
+    margin-right: -15px;
+}
+
+#blue-quote-mark {
+    color: rgb(20, 170, 200);
+    font-size: 300%;
+    line-height: 0px;
+    position: relative; top: 11px;
+}
+
+#quote {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(70,70,70);
+    font-family: arvo;
+}
+
+#interests-label {
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+#interests-name {
+    
+}
+
+#hiking-image {
+    background-image: url(images/hiking.jpg);
+    background-size: auto 100%;
+    background-position: -14px;
+    height: 140px;
+    padding: 10px 10px 10px 10px;
+    background-origin: padding-box;
+    border-radius: 10px;
+}
+
+#yoga-image {
+    background-image: url(images/yoga.jpg);
+    background-size: auto 100%;
+    background-position: -40px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#skiing-image {
+    background-image: url(images/skiing.jpg);
+    background-size: auto 100%;
+    background-position: 0px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#fishing-image {
+    background-image: url(images/fishing.jpg);
+    background-size: 100% auto;
+    background-position: 0px -12px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#sailing-image {
+    background-image: url(images/sailing.jpg);
+    background-size: auto 100%;
+    background-position: -27px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#biking-image {
+    background-image: url(images/biking.jpg);
+    background-size: 100% auto;
+    background-position: 0px;
+    height: 140px;
+    border-radius: 10px;
+}
+#footer {
+    background-color: rgb(20,20,20);
+    height: 56px;
+}
+
+#icons-footer {
+    font-size: 14pt;
+    color: rgb(210,210,210);
+    height: 56px;
+    padding-top: 28px;
+}
+
+#icons-footer i:hover {
+    color: rgb(20, 170, 200);
+    text-decoration: none;
+}
+
+#text-footer {
+    height: 56px;
+    text-align: right;
+    padding-top: 28px;
+    color: rgb(210,210,210); 
+}
+
+

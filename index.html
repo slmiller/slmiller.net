@@ -1,169 +1,228 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Sarah Miller</title>
-<meta charset="utf-8">
-<!--css-->
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
-<!--js-->
-<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
-<script type="text/javascript" src="js/superfish.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-
-<script>	
-			jQuery(window).load(function() {								
-			jQuery('.flexslider').flexslider({
-				animation: "fade",			
-				slideshow: true,			
-				slideshowSpeed: 7000,
-				animationDuration: 600,
-				prevText: "",
-				nextText: "",
-				controlNav: false		
-			})
-			  
-			
-					
-      });
-	</script>
-
-
-	<!--[if lt IE 8]>
-      <div style=' clear: both; text-align:center; position: relative;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-          <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-       </a>
-     </div>
-    <![endif]-->
+<html>
+    <head>
+        <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/>
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css"/>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/>        
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+        <title>Sarah Miller's Portfolio</title>
+        
+    </head>
     
-	<!--[if lt IE 9]>
-   		<script src="js/html5.js"></script>
-  		<link rel="stylesheet" href="css/ie.css"> 
-       <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400italic' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400' rel='stylesheet' type='text/css'>
-	<![endif]-->
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="wrapper" class="col-8 col-offset-2">
+                    
+                    <div class="row">                    
+                        <div id="header-image" class="col-12">
+                        </div>
+                    </div>
 
-</head>
-<body>
+                    <div id="navbar" class="row">
+                        <div id="navbar-col" class="col-2">
+                            <a href="http://www.personal.psu.edu/slm5413/documents/resume2013.pdf" target="_blank">resume</a>
+                        </div>
+                        <div id="navbar-col-port" class="col-2">
+                            <a href="http://www.personal.psu.edu/slm5413/documents/portfolio2013.pdf" target="_blank">portfolio</a>
+                        </div>
+                        <div id="navbar-col" class="col-2">
+                            <a href="http://www.engr.psu.edu/ae/thesis/portfolios/2014/slm5413/index.html" target="_blank">thesis</a>
+                        </div>
+                        <div id="icons-top" class="col-6">
+                            <a title="LinkedIn" href="http://www.linkedin.com/pub/sarah-miller/64/3b7/253" target="_blank"><i class="icon-linkedin-sign"></i></a>
+                            <a title="Flickr" href="http://www.flickr.com/photos/99983168@N04/" target="_blank"><i class="icon-flickr"></i></a>
+                            <a title="Google+" href="https://plus.google.com/116339737740917333402/posts" target="_blank"><i class="icon-google-plus-sign"></i></a>
+                            <a title="Facebook" href="https://www.facebook.com/people/Sarah-Miller/733799455" target="_blank"><i class="icon-facebook-sign"></i></a>
+                            <a title="Twitter" href="https://twitter.com/_s_miller_" target="_blank"><i class="icon-twitter-sign"></i></a>
+                        </div>
+                    </div>
+                
+                    <div id="profile-bio" class="row">
+                        <div id="profile" class="col-4">        
+                            <p><img id="profile-image" src="images/profile.jpg" /></p>
+                        </div>
+                        <div class="col-8">
+                            <h1>Welcome to <span id="blue-text">Sarah Miller's</span> Portfolio</h1>
+                            <p>I am a 5th year Architectural Engineering student at The Pennsylvania State University. I will be graduating in May of 2014 with a focus in lighting & electrical design.</p>
+                            <p>My love of design goes back many years. I began to learn how to use AutoCAD when I was only 12, and since then I've added many more architectural tools to my skillset. As a child, I was fascinated by architecture. And as I grew, I developed an inclination towards science and mathematics. Architectural Engineering is the perfect blend of disciplines that allows me to develop a broad knowledge base.</p>
+                            <p>In the summer of 2012, I applied my electrical design skills while working with an MEP firm. This past summer, I focused on lighting design while working with an architecture firm. Both of these internships have given me unique opportunities to learn about the applications of Architectural Engineering.</p>
 
-<!--==============================header=================================-->
-<header>
-  <div class="line-top"></div>
-  <div class="main">
-    <div class="row-top">
-      <h1><a href="index.html"><img alt="" src="images/logo.png"></a></h1>
-      <nav>
-        <ul class="sf-menu">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="http://www.personal.psu.edu/slm5413/documents/resume2013.pdf">Resume</a> </li>
-          <li><a href="http://www.personal.psu.edu/slm5413/documents/portfolio2013.pdf">Portfolio</a> </li>
-          <li><a href="index-5.html">Contact Me</a> </li>
-        </ul>
-      </nav>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="box-slider">
-    <div class="flexslider">
-      <ul class="slides">
-        <li> <img alt="" src="images/slide-2.jpg"></li>
-        <li> <img alt="" src="images/slide-3.jpg"></li>
-        <li> <img alt="" src="images/slide-4.jpg"></li>
-        <li> <img alt="" src="images/slide-1.jpg"></li>
-      </ul>
-    </div>
-  </div>
-  <div class="box-slogan">
-    <h3>welcome to Sarah Miller's portfolio</h3>
-    <p> I am currently a 4th year architectural engineering student at The Pennsylvania State University. My option is Lighting and Electrical design. I plan to graduate in May of 2014. i'd like to invite you to take a look at my <a href="#" class="link-1">resume</a> or <a href="#" class="link-1">portfolio</a>. </p>
-  </div>
-</header>
-<!--==============================content=================================-->
-<section id="content"><div class="ic"></div>
-  <div class="border-horiz"></div>
-    <div class="container_12 row-1">
-    <article class="grid_4 thumbnail-1">
-      <h3><span>architecture</span>studio</h3>
-      <figure class="box-img"><img src="images/page1-img1.jpg " alt="" /></figure>
-      <p>The <a href="#" class="link-1">multi-use apartment building</a> I designed for my fall 2012 studio project was selected as the winning project for this semester.</p>
-      <a href="#" class="btn">Read more</a> </article>
-    <article class="grid_4 thumbnail-1">
-      <h3><span>lighting</span>design</h3>
-      <figure class="box-img"><img src="images/page1-img2.jpg " alt="" /></figure>
-      <p>Shown above is a sample from my final project in AE 461. This was created using AutoCAD and 3dsMax.</p>
-      <a href="#" class="btn">Read more</a> </article>
-    <article class="grid_4 thumbnail-1">
-      <h3><span>electrical</span>design</h3>
-      <figure class="box-img"><img src="images/page1-img3.jpg " alt="" /></figure>
-      <p>I am currently enrolled in an electrical design class. The class's final project is to create a building's electrical system in compliance with NEC 2011.</p>
-      <a href="#" class="btn">Read more</a> </article>
-    <div class="clear"></div>
-  </div>
-  <div class="border-horiz"></div>
-  <div class="container_12">
-    <article class="grid_4">
-      <h3>skills</h3>
-      <ul class="list-popular">
-        <li> <a href="#">Computer Programs</a>
-          <p>AutoCAD, Revit, AGi32, 3dsMax, Photoshop, Google SketchUp, and DaySim.</p>
-        </li>
-        <li> <a href="#">Web Design</a>
-          <p>I am the webmaster of the residential contractor William Miller's Sons, Inc.</p>
-        </li>
-        <li> <a href="#">Adventuring</a>
-          <p>backpacking, hiking, kayaking, hunting, and white-water rafting</p>
-        </li>
-        <li> <a href="#">creative art</a>
-          <p>architecture, sketching, and photography</p>
-        </li>
-      </ul>
-    </article>
-    <article class="grid_8">
-      <h3>personal interests</h3>
-      <blockquote class="quote-1"> The very basic core of a man's living spirit is his passion for adventure. The joy of life comes from our encounters with new experiences, and hence there is no greater joy than to have an endlessly changing horizon, for each day to have a new and different sun." </blockquote>
-      <div class="name-author">-Chris McCandless</div>
-      <ul class="list-dropcap">
-        <li>
-          <div class="wrapper">
-            <div class="dropcap">!</div>
-            <a href="#">Mountain Biking</a> </div>
-          <figure class="box-img"><img src="images/page1-img4.jpg " alt="" /></figure>
-        </li>
-        <li>
-          <div class="wrapper">
-            <div class="dropcap">+</div>
-            <a href="#">Yoga</a> </div>
-          <figure class="box-img"><img src="images/page1-img5.jpg " alt="" /></figure>
-        </li>
-        <li>
-          <div class="wrapper">
-            <div class="dropcap"><</div>
-            <a href="#">Skiing</a> </div>
-          <figure class="box-img"><img src="images/page1-img6.jpg " alt="" /></figure>
-        </li>
-      </ul>
-    </article>
-    <div class="clear"></div>
-  </div>
-</section>
+                        </div>
+                    </div>                   
+                    
+                    <div id="school-degree" class="row">
+                      <div id="school-degree-left" class="col-8">
+                          <h2>the <span id="white-text">pennsylvania</span> state university</h2>
+                          <h3>bachelor of architectural <span id="white-text">engineering</span></h3>
+                      </div>
+                      <div id="school-degree-right" class="col-4">
+                          <h2>class of may <span id="white-text">2014</span></h2>
+                          <h3><span id="white-text">lighting</span> & electrical</h3>
+                      </div>      
+                    </div>
 
-<!--==============================footer=================================-->
-<footer>
-  <div class="main">
-    <ul class="soc-list">
-      <li><a href="https://plus.google.com/116339737740917333402/posts"><img alt="" src="images/icon-4.png"></a></li>
-      <li><a href="http://www.linkedin.com/pub/sarah-miller/64/3b7/253"><img alt="" src="images/icon-1.png"></a></li>
-      <li><a href="http://www.facebook.com/people/Sarah-Miller/733799455"><img alt="" src="images/icon-5.png"></a></li>
-    </ul>
-    <div class="policy">Website Template designed by <a href="http://www.templatemonster.com" rel="nofollow">TemplateMonster.com</a> Copyright © 2013 Sarah Miller</div>
-    <div class="clear"></div>
-  </div>
-</footer>
-</body>
+                    <div id="achieve-row" class="row">
+                        <div id="achieve-col" class="col-4">
+                            <h4>architecture</h4>
+                            <h5>studio</h5>
+                            <div class="row">
+                                <div id="achieve-col-image-arch" class="col-12"></div>
+                            </div>
+                            <p>The multi-use apartment building I designed for my fall 2012 studio project was selected as the winning project for that semester.</p>
+                        </div>
+                        <div id="achieve-col-center" class="col-4">
+                            <h4>engineering</h4>
+                            <h5>exam</h5>
+                            <div class="row">
+                                <div href="http://ncees.org/" target="_blank" id="achieve-col-image-ncees" class="col-12"></div>
+                            </div>
+                            <p>Last year I recieved a passing score on the NCEES Fundamentals of Engineering exam.</p>
+                        </div>
+                        <div id="achieve-col" class="col-4">
+                            <h4>lighting</h4>
+                            <h5>scholarship</h5>
+                            <div class="row">
+                                <div href="http://www.iald.org/trust/past-scholarship.asp#2013" target="_blank"id="achieve-col-image-iald" class="col-12"></div>
+                            </div>
+                            <p>I was selected for the IALD's Thomas M Lemons Scholarship for 2013.</p>
+                        </div>
+                    </div>
+
+                    <div id="skills-interests" class="row">
+                        <div id="skills-col" class="col-4">
+                                <div id="skills-list" class="row">
+                                    <div id="skills-title" class="col-12">
+                                        <h4>skills</h4>
+                                    </div>
+                                </div>
+                                <div id="skills-list" class="row">
+                                    <div id="skills-element" class="col-12">
+                                        <h5>computer programs</h5>
+                                            <p class="p1">autocad, revit, agi32, 3dsmax, photoshop, indesign, and google sketchup</p>
+                                    </div>
+                                </div>
+                                <div id="skills-list" class="row">
+                                    <div id="skills-element" class="col-12">
+                                        <h5>adventuring</h5>
+                                            <p class="p1">backpacking, hiking, kayaking, hunting, and whitewater rafting</p>
+                                    </div>
+                                </div>
+                                <div id="skills-list" class="row">
+                                    <div id="skills-element" class="col-12">
+                                        <h5>creative art</h5>
+                                            <p class="p1">architecture, sketching, and photography</p>
+                                    </div>
+                                </div>
+                                <div id="skills-list" class="row">
+                                    <div id="skills-element" class="col-12">
+                                        <h5>web design</h5>
+                                            <p class="p1">I have created several websites including: my thesis site, this site, and the site for William Miller's Sons, inc</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-8">
+                            <h4 id="interests-title">personal interests</h4>
+                                <div id="quote" class="row">
+                                    <span id="blue-quote-mark">"</span> The very basic core of a man's living spirit is his passion for adventure. the joy of life comes from our encounters with new experiences, and hence there is no greater joy than to have an endlessly changing horizon, for each day to have a new and different sun."  -Chris McCandless
+                                </div>
+                                <div class="row">
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row"> 
+                                            <div id="interests-name" class="col-12">                                       
+                                                <h5 class="no-bottom-margin">hiking</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="hiking-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row"> 
+                                            <div id="interests-name" class="col-12">                                       
+                                                <h5 class="no-bottom-margin">yoga</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="yoga-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row">       
+                                            <div id="interests-name" class="col-12">                                 
+                                                <h5 class="no-bottom-margin">skiing</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="skiing-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row"> 
+                                            <div id="interests-name" class="col-12">                                       
+                                                <h5 class="no-bottom-margin">fishing</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="fishing-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row"> 
+                                            <div id="interests-name" class="col-12">                                       
+                                                <h5 class="no-bottom-margin">biking</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="biking-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="interests-label" class="col-4">
+                                        <div class="row">       
+                                            <div id="interests-name" class="col-12">                                 
+                                                <h5 class="no-bottom-margin">sailing</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div id="sailing-image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <div id="footer" class="row">
+                        <div id="icons-footer" class="col-4">
+                            <a title="LinkedIn" href="http://www.linkedin.com/pub/sarah-miller/64/3b7/253" target="_blank"><i class="icon-linkedin-sign"></i></a>
+                            <a title="Flickr" href="http://www.flickr.com/photos/99983168@N04/" target="_blank"><i class="icon-flickr"></i></a>
+                            <a title="Google+" href="https://plus.google.com/116339737740917333402/posts" target="_blank"><i class="icon-google-plus-sign"></i></a>
+                            <a title="Facebook" href="https://www.facebook.com/people/Sarah-Miller/733799455" target="_blank"><i class="icon-facebook-sign"></i></a>
+                            <a title="Twitter" href="https://twitter.com/_s_miller_" target="_blank"><i class="icon-twitter-sign"></i></a>
+                        </div>
+                        <div id="text-footer" class="col-8">
+                            <p>website created by <span id="blue-text">Sarah Miller</span> 2013</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>        
+        </div>
+    </body>
 </html>
