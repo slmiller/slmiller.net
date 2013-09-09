@@ -86,7 +86,7 @@ body {
 
 #wrapper {
     background-image: url(images/white-noise.png);
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 100px rgb(20, 170, 200);
 }  
 
 #header-image {
