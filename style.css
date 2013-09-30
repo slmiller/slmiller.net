@@ -335,14 +335,14 @@ body {
 }
 #footer {
     background-color: rgb(20,20,20);
-    height: 56px;
+    height: 86px;
 }
 
 #icons-footer {
     font-size: 14pt;
     color: rgb(210,210,210);
-    height: 56px;
-    padding-top: 28px;
+    height: 86px;
+    padding-top: 40px;
 }
 
 #icons-footer i:hover {
@@ -351,9 +351,9 @@ body {
 }
 
 #text-footer {
-    height: 56px;
+    height: 86px;
     text-align: right;
-    padding-top: 28px;
+    padding-top: 40px;
     color: rgb(210,210,210); 
 }
 
