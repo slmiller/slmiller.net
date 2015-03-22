@@ -34,6 +34,10 @@
     text-align: right;
 }
 
+.link-color {
+    color: rgb(20, 170, 200);
+}
+
 h1 {
     font-family: Droid Sans;
     font-size: 22pt;
@@ -292,7 +296,7 @@ body {
 #yoga-image {
     background-image: url(images/yoga.jpg);
     background-size: auto 100%;
-    background-position: -40px;
+    background-position: -13px;
     height: 140px;
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -327,8 +331,8 @@ body {
 
 #biking-image {
     background-image: url(images/biking.jpg);
-    background-size: 100% auto;
-    background-position: 0px;
+    background-size: auto 200%;
+    background-position: top right;
     height: 140px;
     border-radius: 10px;
     background-repeat: no-repeat;
